@@ -1,0 +1,50 @@
+<!--
+Copyright amir javanmir
+Released on: March 24, 2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Reader</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <button type="button" id="startRead">صفحه خوان</button>
+    <!-- تست محتوای متنی -->
+    <div id="textContent">
+        این یک متن نمونه است.
+    </div>
+
+    <!-- تست عناصر با aria-label -->
+    <button aria-label="دکمه نمونه با aria-label">دکمه ۱</button>
+
+    <!-- تست عناصر با title -->
+    <img src="image.png" title="تصویر نمونه با title">
+
+    <!-- تست عناصر با alt -->
+    <img src="image.png" alt="تصویر نمونه با alt">
+
+    <!-- تست عناصر با placeholder -->
+    <input type="text" placeholder="متن placeholder">
+
+    <!-- تست عناصر با مقدار value -->
+    <input type="text" value="مقدار value">
+    <button value="مقدار value دکمه">دکمه ۲</button>
+
+    <!-- تست عناصر با کلاس icon- -->
+    <div class="icon-sample">آیکن</div>
+
+    <!-- تست انتخاب متن -->
+    <p>این یک پاراگراف است که می‌توانید متن آن را انتخاب کنید.</p>
+
+    <!-- تست عناصر بدون محتوای خواندنی -->
+    <div></div>
+    <div><span></span></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
