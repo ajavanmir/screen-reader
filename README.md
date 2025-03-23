@@ -21,7 +21,7 @@ A simple and accessible screen reader implementation using JavaScript and a text
    - Open the `index.html` file in your browser to start using the screen reader.
 
 3. **API Key**:
-   - Replace the `API_KEYS` placeholder in the `ScreenReader.js` file with your actual API key from a text-to-speech service (e.g., FarsiReader API).
+   - Replace the `API_KEYS` placeholder in the `script.js` file with your actual API key from a text-to-speech service (e.g., FarsiReader API).
 
 ## Usage
 
@@ -38,9 +38,9 @@ A simple and accessible screen reader implementation using JavaScript and a text
 
 ## Code Structure
 
-- **`ScreenReader.js`**: Contains the main logic for the screen reader.
+- **`script.js`**: Contains the main logic for the screen reader.
 - **`index.html`**: Sample HTML file with elements for testing.
-- **`styles.css`**: Basic styling for the demo.
+- **`style.css`**: Basic styling for the demo.
 
 ## Example HTML
 
@@ -67,24 +67,10 @@ A simple and accessible screen reader implementation using JavaScript and a text
 
 ## API Integration
 
-This project uses the [FarsiReader API](http://api.farsireader.com/) for text-to-speech functionality. Replace the `API_KEYS` variable in the `ScreenReader.js` file with your API key.
+This project uses the [FarsiReader API](http://api.farsireader.com/) for text-to-speech functionality. Replace the `API_KEYS` variable in the `script.js` file with your API key.
 
 ```javascript
 generateAPIKey() {
   return ['YourAPIKeyHere'].join("");
 }
 ```
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
